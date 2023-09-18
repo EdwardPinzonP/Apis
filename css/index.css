@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #c6e1ff, #97bbe5, #c6e1ff);
+    /* Cambia los valores de color para ajustar el degradado */
+    height: 100vh; 
+}
+
+h1 {
+    font-size: 24px;
+    color: #0c3560;
+}
+
+.apipokemon,
+.apinasa {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.caja-rectangular {
+    width: 200px;
+    height: 250px;
+    background-image: url('https://i.ytimg.com/vi/aMkjdhulaf8/maxresdefault.jpg');
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px; 
+}
+
+.caja-rectangular:hover {
+    background-color: #1975d7;
+}
+
+.caja-rectangular1 {
+    width: 200px;
+    height: 250px;
+    background-image: url('https://static.videezy.com/system/resources/thumbnails/000/042/456/original/Sky-night-rotation-space-background.jpg');
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.caja-rectangular1:hover {
+    background-color: black;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+}
+.img1 {
+    max-width: 130px;
+    max-height: 130px;
+    margin: 0;
+}
+
+p {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
