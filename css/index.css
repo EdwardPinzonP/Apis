@@ -1,0 +1,10 @@
+.cajaprincipal{
+    border-radius: 30px solid black;
+    width: 20%;
+    margin: 40%;
+} 
+body{
+    background-image: url(https://i.pinimg.com/564x/56/da/41/56da412357359a2a079fa519a129c4df.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
